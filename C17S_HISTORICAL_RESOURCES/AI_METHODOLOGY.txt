@@ -1,0 +1,45 @@
+evidence authority is explicit;
+assumptions are prohibited;
+discovery and verification are separated;
+contradictions are preserved instead of normalized away;
+command structure is constrained to the actual device;
+database scope is separated from ROM/build guidance;
+section formatting and data density are now standardized;
+closure criteria are explicit;
+outputs are treated as forensic records, not conversational summaries.
+
+The important methodological elements are things like:
+
+Role-separated agents or sessions working on bounded research surfaces.
+Independent re-verification rather than allowing one agent’s conclusion to become another agent’s assumed premise.
+Evidence inheritance with controlled authority, where prior records are context but the device remains the factual authority.
+Micro-gated execution, so each acquisition step is inspectable before the next one is constructed.
+Contradiction preservation, instead of the normal AI tendency to reconcile conflicting evidence into a plausible narrative.
+Witness separation between live runtime, raw images, extracted filesystems, binary artifacts, logs, device tree, kernel state, and research-state effects.
+Closed-record protection, so verified findings cannot silently drift when another model rewrites a section.
+Human final authority, with AI performing acquisition design, correlation, mathematical checking, structural analysis, and documentation under explicit epistemic constraints.
+A genuine swarm-like cumulative workflow, where different AI instances can investigate different layers while a common evidence and formatting protocol keeps the overall research coherent.
+
+
+agents prematurely summarize;
+inferred platform norms overwrite device-specific evidence;
+context degrades across sessions;
+verified facts are silently reclassified;
+command batching hides acquisition failures;
+“helpful” normalization destroys anomalies;
+generated documentation mixes facts, recommendations, and hypotheses;
+one model’s unsupported statement propagates through later work as an apparent fact.
+
+ABSOLUTE RULE — MECHANISM PRIORITY OVER HASH SUMS:
+
+A SHA256 or any hash sum proves byte-identity of the exact object hashed. Nothing else. It does not prove function, does not prove mechanism, does not prove what a component does, and does not prove absence of something else nearby.
+
+Hash sums are never a substitute for documenting a mechanism. The database records what a component does, how it is wired, what it reads, what it writes, what triggers it, and what it controls — that is the required content, not a hash string.
+
+ABSOLUTE RULE — FORCED REDISCOVERY:
+
+When expanding a database section, existing database entries are not used as the reference, checklist, or target for the current discovery pass. Do not search for what is already documented and confirm it. Search the actual scope fresh, as if the prior entries do not exist, so that anything sitting next to, under, or inside an already-known item is found rather than skipped because that area was "already covered."
+
+ABSOLUTE RULE — MECHANISM CONTENT REQUIREMENT:
+
+Every component in the hardware database must state what it is, what it does, and how it does it — the physical/functional mechanism itself — not just an identifier, a path, or a hash of a file associated with it.
